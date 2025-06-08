@@ -4,8 +4,8 @@ pipeline {
     parameters {
         string(name: 'BRANCH', defaultValue: 'integration', description: 'Git branch to build')
         string(name: 'DOCKER_TAG', defaultValue: '0.0.1-SNAPSHOT', description: 'Docker image tag')
-        string(name: 'HOST_PORT', defaultValue: '9092', description: 'Host port to expose')
-        string(name: 'CONTAINER_PORT', defaultValue: '9092', description: 'Container port the app listens on')
+        string(name: 'HOST_PORT', defaultValue: '9093', description: 'Host port to expose')
+        string(name: 'CONTAINER_PORT', defaultValue: '9093', description: 'Container port the app listens on')
     }
 
     environment {
